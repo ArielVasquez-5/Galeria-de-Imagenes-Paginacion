@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Slabo 27px', serif;
+    background: #232931;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+}
+
+/* --- Login --- */
+
+.nav {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    background: #333D47;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.contenedor .titulo {
+    text-align: center;
+}
+
+.login {
+    max-width: 400px;
+    width:90%;
+    margin: auto; 
+}
+
+.login-titulo {
+    margin-bottom: 30px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+}
+
+.form-register .form-user {
+    padding: 10px;
+    background: none;
+    font-family: 'Slabo 27px', serif;
+    border: 1px solid rgba(255,255,255,.2); 
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgba(255,255,255,.5);
+    font-size: 0.9rem;
+    margin-top: 4px;
+    transition: all .3s ease;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-register .form-user:hover {
+    border: 1px solid #ccc;
+}
+
+.form-register .form-pass {
+    padding: 10px;
+    background: none;
+    font-family: 'Slabo 27px', serif;
+    border: 1px solid rgba(255,255,255,.2); 
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgba(255,255,255,.5);
+    margin-top: 4px;
+    transition: all .3s ease;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.form-register .form-pass:hover {
+    border: 1px solid #ccc;
+}
+
+.form-register .btn {
+    display: block;
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,.2);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    background: #232931;
+    color: #fff;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.form-register .btn:hover {
+    border: 1px solid #fff;
+    text-decoration: none;
+    background: #ccc;
+    color: #000;
+}
+
+.login-error {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    text-decoration: none;
+    color: #DF013A;
+    font-size: 1.1rem;
+}
+
+.login-error-2 {
+    background: #DF013A;
+    text-align: center;
+    margin: auto;
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+
+
+/* ---- Header ---- */
+
+
+.registrarse {
+    display: inline-block;
+    width: 20%;
+}
+
+.upload {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.upload a {
+    border-radius: 50%;
+    padding: 5px;
+    transition: all .3s ease;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+
+.upload a:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+header {
+    margin: 40px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.titulo {
+    margin-top: 50px;
+}
+
+
+.form-session {
+    width: 30%;
+
+}
+
+.form-session i{
+    font-size: 25px;
+}
+
+.form-session .form-session-user, .form-session-pass {
+    background: #232931;
+    border: none;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #232931;
+    transition: all .3s ease;
+    margin: 0 8px 0 8px;
+    border-radius: 50px;
+    outline: none;
+    
+   
+}
+
+.form-session input[type="text"]:hover {
+    border: 1px solid #ccc;
+}
+
+.form-session input[type="password"]:hover {
+    border: 1px solid #ccc;
+}
+
+
+.form-session .submit {
+    border-radius: 50%;
+    padding: 5px;
+    transition: all .3s ease;
+    font-size: 18px;
+}
+
+.form-session .submit:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+
+/* ---- FOTOS ---- */
+
+.fotos .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumb {
+    width: 22%;
+    margin-bottom: 30px;
+    outline: 5px solid rgba(255,255,255,0);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.thumb:hover {
+    outline: 5px solid rgba(255,255,255,1);
+}
+
+.thumb a {
+    display: block;
+}
+
+.thumb img {
+    vertical-align: top;
+    width: 100%
+}
+
+/* ---- Single FOTO ---- */
+
+.foto {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    vertical-align: top;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+    margin-bottom: 30px;
+}
+
+.foto .texto {
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.regresar {
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px solid rgba(255,255,255,.2);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.regresar:hover {
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.regresar .fa {
+    margin-right: 15px;
+}
+
+/* --- Footer --- */
+
+footer .copyright {
+    text-align: center;
+    color: rgba(255,255,255,.5);
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+/* --- PAGINACION --- */
+
+.paginacion {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.paginacion a {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,.2);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.paginacion a:hover {
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.paginacion .izquierda .fa {
+    margin-right: 10px;
+}
+
+.paginacion .derecha .fa {
+    margin-left: 10px;
+}
+
+/* --- Formulario --- */
+
+.formulario {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario .error {
+    border: 1px solid red;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario input[type="file"],
+.formulario textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.formulario textarea {
+    padding: 10px;
+    background: none;
+    font-family: 'Slabo 27px', serif;
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.formulario .img-name {
+    padding: 10px;
+    background: none;
+    font-family: 'Slabo 27px', serif;
+    border: 1px solid rgba(255,255,255,.2); 
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.formulario textarea {
+    min-height: 76px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.formulario textarea:focus {
+    border: 1px solid rgba(255,255,255,.5);
+}
+
+.formulario .submit{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,.2);
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+}
+
+.formulario .submit:hover {
+    border: 1px solid rgba(255,255,255,.1);
+}
